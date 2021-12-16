@@ -8,7 +8,7 @@ function Member() {
   return (
     <>
       <NavBar />
-      {status === "notConnected" ? (
+      {!account ? (
         <BtnConnect connect={connect} />
       ) : (
         <Account account={account} />
@@ -56,7 +56,7 @@ function NoBody() {
           href="https://opensea.io/collection/dominateforex"
           target="_blank"
           rel="noreferrer"
-          className="bg-white text-scolor text-base font-bold py-1 px-2 rounded focus:ring"
+          className="bg-white text-scolor text-xl font-bold py-3 px-6 rounded-xl focus:ring"
         >
           Click here to Buy our NFTs
         </a>
