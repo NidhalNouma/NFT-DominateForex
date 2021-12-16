@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 
 export default function Home() {
@@ -12,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
           <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
             Buy our NFTs and get{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-br from-white to-tcolor p-2 border-double border-4 border-pcolor rounded-xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-white to-tcolor px-2 py-0 border-double border-b-4 border-pcolor">
               full life time access
             </span>{" "}
             to our prodducts
