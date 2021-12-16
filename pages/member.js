@@ -36,9 +36,9 @@ function Account({ account, show = false }) {
   return (
     <div className="mx-auto mt-10">
       <div>
-        <h1 className="font-extrabold ">
+        <h1 className="sm:font-extrabold">
           Address
-          <span className="text-tcolor bg-slate-50 ml-2 px-2 py-1 rounded">
+          <span className="text-xs sm:text-base text-tcolor bg-slate-50 ml-2 px-2 py-1 rounded">
             {account}
           </span>
         </h1>

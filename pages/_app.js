@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>DominateForex NFT</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="mx-auto px-2 sm:px-16 lg:px-24 min-h-screen flex flex-col">
+      <div className="mx-auto px-6 sm:px-16 lg:px-24 min-h-screen flex flex-col">
         <Component {...pageProps} />
       </div>
     </MetaMaskProvider>

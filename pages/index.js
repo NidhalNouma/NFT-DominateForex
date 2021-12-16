@@ -6,15 +6,15 @@ export default function Home() {
       <NavBar />
 
       <div className="container pt-24 md:pt-36 mx-auto">
-        <div className="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
-          <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
+        <div className="flex flex-col w-full xl:w-3/5 items-start overflow-y-hidden">
+          <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-left">
             Buy our NFTs and get{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-white to-tcolor px-2 py-0 border-double border-b-4 border-pcolor">
               full life time access
             </span>{" "}
             to our prodducts
           </h1>
-          <p className="leading-normal text-base md:text-lg mb-8 text-center md:text-left">
+          <p className="leading-normal text-base md:text-lg mb-8 text-left">
             By purchasing this NFT Utility you’ll gain lifetime access to all
             exclusive tools available from DominateForex LLC. The tools are
             defined as Tradingview Indicators, Tradingview Strategies, MT4
@@ -22,7 +22,7 @@ export default function Home() {
             Advisors, ThinkorSwim Indicators
           </p>
 
-          <p className="leading-normal text-base md:text-lg mb-8 text-center md:text-left">
+          <p className="leading-normal text-base md:text-lg mb-8 text-left">
             <ul>
               <li>Step 1: Connect your MetaMask Wallet</li>
               <li>Step 2: Click the Buy NFT Button</li>
