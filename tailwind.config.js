@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        tcolor: "#610094",
-        scolor: "#3F0071",
-        pcolor: "#150050",
-        icolor: "#000",
+        tcolor: "#EDEDED",
+        scolor: "#DA0037",
+        pcolor: "#444444",
+        icolor: "#171717",
       },
     },
   },

@@ -1,15 +1,16 @@
 import NavBar from "../components/NavBar";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
       <NavBar />
 
-      <div className="container pt-24 md:pt-36 mx-auto">
-        <div className="flex flex-col w-full xl:w-3/5 items-start overflow-y-hidden">
-          <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-left">
+      <div className="container pt-10 pb-10 md:pt-16 mx-auto">
+        <div className="flex flex-col w-full xl:w-3/5 items-start overflow-y-hidden mx-auto">
+          <h1 className="mb-8 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-centeru">
             Buy our NFTs and get{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-br from-white to-tcolor px-2 py-0 border-double border-b-4 border-pcolor">
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-white to-scolor px-2 py-0 border-double border-b-4 border-pcolor">
               full life time access
             </span>{" "}
             to our prodducts
@@ -38,10 +39,10 @@ export default function Home() {
               </li>
             </ul>
           </p>
-
-          <div className="flex items-center justify-between pt-4">
+          <Imgs />
+          <div className="flex items-center justify-between pt-4 w-full">
             <a
-              className="bg-white text-scolor text-lg font-bold py-3 px-6 rounded-xl focus:ring"
+              className="bg-white mx-auto text-scolor text-lg font-bold py-3 px-6 rounded-xl focus:ring"
               href="https://opensea.io/collection/dominateforex"
               target="_blank"
               rel="noreferrer"
@@ -51,6 +52,23 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+function Imgs() {
+  return (
+    <div className="flex flex-col w-full">
+      <div className="w-full mx-auto grid grid-cols-2 md:grid-cols-3 items-center justify-center">
+        <Image width="320" height="140" src="/static/nfts/DF1.png" alt="" />
+        <Image width="320" height="140" src="/static/nfts/DF2.png" alt="" />
+        <Image width="320" height="140" src="/static/nfts/DF3.png" alt="" />
+        <Image width="320" height="140" src="/static/nfts/DF4.png" alt="" />
+        <Image width="320" height="140" src="/static/nfts/DF5.png" alt="" />
+      </div>
+      <span className="text-center py-3 px-3 my-3 mx-auto font-extrabold text-xl text-tcolor rounded-xl border-2 border-scolor">
+        Only 50,000 lifetime memberships available
+      </span>
     </div>
   );
 }
