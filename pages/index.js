@@ -13,7 +13,7 @@ export default function Home() {
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-white to-scolor px-2 py-0 border-double border-b-4 border-pcolor">
               full life time access
             </span>{" "}
-            to our prodducts
+            to our products
           </h1>
           <p className="leading-normal text-base md:text-lg mb-8 text-left">
             By purchasing this NFT Utility you’ll gain lifetime access to all
@@ -28,7 +28,7 @@ export default function Home() {
               <li>Step 1: Connect your MetaMask Wallet</li>
               <li>Step 2: Click the Buy NFT Button</li>
               <li>
-                step 3: Once at the OpenSea Collection page connect your
+                step 3: Once at the OpenBiSea Collection page connect your
                 MetaMask wallet
               </li>
               <li>
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="flex items-center justify-between pt-4 w-full">
             <a
               className="bg-white mx-auto text-scolor text-lg font-bold py-3 px-6 rounded-xl focus:ring"
-              href="https://opensea.io/collection/dominateforex"
+              href="https://app.openbisea.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -67,7 +67,7 @@ function Imgs() {
         <Image width="320" height="140" src="/static/nfts/DF5.png" alt="" />
       </div>
       <span className="text-center py-3 px-3 my-3 mx-auto font-extrabold text-xl text-tcolor rounded-xl border-2 border-scolor">
-        Only 50,000 lifetime memberships available
+        Only 1,000 lifetime memberships available
       </span>
     </div>
   );
